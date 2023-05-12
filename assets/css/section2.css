@@ -20,8 +20,6 @@
 }
 
 .download-resume {
-    position: relative;
-    left: 54rem;
     background-color: #e08414;
     font-size: 0.9rem;
     transition: all 0.5s ease;

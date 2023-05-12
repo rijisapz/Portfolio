@@ -19,13 +19,15 @@
     text-decoration: none;
 }
 
-.download-resume {
+.download-resume,
+.download-resume-sm {
     background-color: #e08414;
     font-size: 0.9rem;
     transition: all 0.5s ease;
 }
 
-.download-resume:hover {
+.download-resume:hover,
+.download-resume-sm:hover {
     color: #e08414;
     background-color: rgba(0, 0, 0, 0.6);
     transition: all 0.5s ease;

@@ -9,12 +9,21 @@
     .social-icons a {
         margin: 0.5rem 0.8rem;
     }
-    .navbar, .navbar-toggler {
-        position: fixed;
-        top: 1rem;
-    }
-    .logo {
+    .navbar-toggler, .logo {
         display: none;
+    }
+    .sm-logo {
+        display: block;
+        transform: scale(0.6);
+        position: fixed;
+        left: -0.1em;
+        z-index: 10;
+    }
+    .download-resume-sm {
+        transform: scale(0.7);
+        position: fixed;
+        right: 0.5rem;;
+        top: 1rem;
     }
 }
 

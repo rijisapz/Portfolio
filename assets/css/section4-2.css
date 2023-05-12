@@ -9,21 +9,12 @@
     .social-icons a {
         margin: 0.5rem 0.8rem;
     }
-}
-
-@media screen and (max-width: 401px) {
-    .form-name,
-    .form-email,
-    .form-email-subject,
-    .form-message,
-    .form-submit {
-        width: 100%;
-    } 
-    .social-icons a {
-        margin: 0.5rem 0.8rem;
+    .navbar, .navbar-toggler {
+        position: fixed;
+        top: 1rem;
     }
-    .project {
-        transform: scale(0.9);
+    .logo {
+        display: none;
     }
 }
 

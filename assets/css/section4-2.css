@@ -1,0 +1,15 @@
+@media screen and (max-width: 575px) {
+    .form-name,
+    .form-email,
+    .form-email-subject,
+    .form-message,
+    .form-submit {
+        width: 100%;
+    } 
+    .social-icons a {
+        margin: 0.5rem 0.8rem;
+    }
+    .works1 {
+        margin-left: 1.8rem;
+    }
+}

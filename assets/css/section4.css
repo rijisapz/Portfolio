@@ -67,17 +67,17 @@
 }
 
 .social-icons a {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin: 0.5em 2.2rem;
     text-decoration: none;
     color: black;
-    box-shadow: 0 0 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
     border-radius: 50%;
     position: relative;
     overflow: hidden;
 }
 
-.social-icons a .bi {
+.social-icons a .fa {
     position: relative;
     z-index: 10;
     transition: all 0.5s ease;
@@ -98,7 +98,7 @@
     top: 0;
 }
 
-.social-icons a:hover .bi {
+.social-icons a:hover .fa {
     color: white;
 }
 

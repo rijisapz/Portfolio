@@ -58,7 +58,7 @@
 
 .contact {
     position: relative;
-    top: 25%;
+    top: 12%;
 }
 
 .social-icons {
@@ -127,4 +127,16 @@
     color: #8b1076;
     box-shadow: 0 1px;
     text-decoration: none;
+}
+
+.contact-me,
+.my-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.25);
+    height: 5rem;
+    font-size: 2rem;
+    letter-spacing: 0.25rem;
+    color: rgb(238, 156, 5)
 }

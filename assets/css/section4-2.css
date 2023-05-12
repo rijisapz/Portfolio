@@ -25,6 +25,10 @@
         right: 0.5rem;;
         z-index: 10;
     }
+    .my-projects,
+    .contact-me {
+        display: none;
+    }
 }
 
 .about-mey,

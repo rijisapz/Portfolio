@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 370px) and (max-width: 575px) {
     .form-name,
     .form-email,
     .form-email-subject,

@@ -1,0 +1,43 @@
+.section2 {
+    background-image: url('/assets/img/back3.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.about {
+    position: relative;
+    top: 2%;
+    opacity: 0.9;
+    letter-spacing: 0.1rem;
+}
+
+.about-link {
+    color: #9f1061;
+    box-shadow: 0 1px;
+    text-decoration: none;
+}
+
+.download-resume {
+    position: relative;
+    left: 54rem;
+    background-color: #e08414;
+    font-size: 0.9rem;
+    transition: all 0.5s ease;
+}
+
+.download-resume:hover {
+    color: #e08414;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.5s ease;
+}
+
+.about p {
+    transition: all 0.7s ease;
+}
+
+.about p:hover {
+    transform: scale(1.1);
+    color: white;
+}

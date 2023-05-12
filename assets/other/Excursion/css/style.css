@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    align-items: center;
+    font-family: Verdana;
+}
+.entire {
+    text-align: center;
+}
+.heading {
+    color: white;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 50px;
+}
+.download {
+    color: aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.personal {
+    color: white;
+    font-weight: 300;
+    font-size: 42px;
+}
+.remembers {
+    color: gray;
+    font-size: 21px;
+}
+.coming-soon {
+    color: white;
+    font-weight: 300;
+    font-size: 42px;olor: white;
+}
+.download-2 {
+    color: aquamarine;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.footer {
+    color: gray;
+    text-align: right;
+}

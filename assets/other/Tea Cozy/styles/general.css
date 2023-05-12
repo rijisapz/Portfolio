@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  width: 1300px;
+  margin: auto auto;
+}
+
+* {
+  color: seashell;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  opacity: 0.9;
+}
+
+.heading {
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  z-index: 10;
+  background-color: black;
+}
+
+.navig {
+  position: absolute;
+  right: 200px;
+  top: 25px;
+  display: flex;
+  width: 400px;
+  justify-content: space-evenly;
+  text-decoration: underline;
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  height: 50px;
+  margin-left: 10px;
+}

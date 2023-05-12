@@ -1,0 +1,24 @@
+.section1 {
+    background-image: url('/assets/img/back1.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-link {
+    color: #9f1061;
+    box-shadow: 0 1px;
+    text-decoration: none;
+}
+
+.nav-link {
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.nav-link:hover {
+    transform: scale(1.36);
+    color: #9f1061;
+    transition: all 0.5s ease;
+}
+

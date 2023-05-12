@@ -1,0 +1,67 @@
+.section3 {
+    background-image: url('/assets/img/back4.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.works1 {
+    display: flex;
+    height: 80vh;
+    place-content: center;
+}
+
+.middle {
+    transition: 0.8s ease;
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+    color:rgba(0, 0, 0, 1);
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgba(208, 137, 6, 0.9);
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.tea-cozy:hover .middle,
+.dasmotos:hover .middle,
+.excursion:hover .middle,
+.space:hover .middle,
+.healthy:hover .middle,
+.fotomatic:hover .middle {
+    opacity: 0.8;
+    border-radius: 0.3rem;
+}
+
+.tea-cozy img,
+.dasmotos img,
+.excursion img,
+.space img,
+.healthy img,
+.fotomatic img {
+    transition: all 0.75s ease;
+}
+
+.tea-cozy:hover img,
+.dasmotos:hover img,
+.excursion:hover img,
+.space:hover img,
+.healthy:hover img,
+.fotomatic:hover img {
+    transform: scale(1.2);
+    opacity: 0.9;
+    cursor: pointer;
+    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.46);
+}
+
+.project {
+    border-radius: 0.5rem;
+    border: 3px solid  rgb(208, 137, 6);
+}
+
+.works-link {
+    color: #9f1061;
+    box-shadow: 0 1px;
+    text-decoration: none;
+}

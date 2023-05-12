@@ -1,0 +1,54 @@
+.locations {
+    position: relative;
+    top: 200px;
+    text-align: center;
+    justify-content: center;
+    width: 1200px;
+    height: 500px;
+    background-image: url('../assets/images/locations-background.jpg');
+    margin: auto;
+  }
+
+  .loc {
+    position: relative;
+    top: 46px;
+  }
+
+  .towns {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 1);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 65px;
+    margin: 0 20px;
+  }
+
+  .towns > p,
+  .towns > h3 {
+    margin: 40px;
+  }
+
+  .contact {
+        position: relative;
+        top: 220px;
+        width: 1200px;
+        margin: auto auto;
+        text-align: center;
+  }
+
+  .contact > h3 {
+    margin-top: -5px;
+    margin-bottom: 34px;
+  }
+
+  .contact > h5 {
+    margin-bottom: 24px;
+  }
+
+  .foot {
+    position: relative;
+    top: 250px;
+    left: 20px;
+    padding-bottom: 50px;
+  }

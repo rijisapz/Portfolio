@@ -22,3 +22,37 @@
     transition: all 0.5s ease;
 }
 
+/* start of styles for home page */
+
+.container1 {
+    height: 70vh;
+    align-items: center;
+}
+.box1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.i-am {
+    font-size: 4.2rem;
+}
+
+.webdev {
+    font-size: 2rem;
+    letter-spacing: 0.8rem;
+}
+
+.box {
+    position: relative;
+}
+
+.tree {
+    position: relative;
+    left: 16rem;
+}
+
+
+
+
+
+

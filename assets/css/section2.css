@@ -7,6 +7,9 @@
 }
 
 .about {
+    background-image: url('/assets/img/pic.png');
+    background-position: calc(50% + 14rem) 50%;
+    background-repeat: no-repeat;
     position: relative;
     top: 2%;
     opacity: 0.9;
@@ -41,3 +44,16 @@
     transform: scale(1.1);
     color: white;
 }
+
+.cupertino {
+    position: relative;
+    top: 16rem;
+    left: 20rem;
+}
+.google-map {
+    border-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+

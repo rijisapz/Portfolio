@@ -55,5 +55,8 @@
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 100;
+    box-shadow: 0 0 4px #81776c, 0 0 4px #e27a19, 0 0 6px #cdc4ba, 0 0 8px #ff8201;
 }
+
 

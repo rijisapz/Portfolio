@@ -45,15 +45,16 @@
     background-color: #ff8201;
     color:rgba(0, 0, 0, 0.8);
     border: 4px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0 4px #ff8201, 0 0 4px #ff8201, 0 0 6px #ff8201, 0 0 8px #ff8201;
+    box-shadow: 0 0 4px #ff8201;
 } 
 
 .form-submit {
     padding: 0.4rem;
     width: 50%;
     background:rgb(208, 137, 6);
-    border: 4px solid rgb(215, 141, 4);
+    border: 4px solid rgb(200, 131, 3);
     border-radius: 6px;
+    color: black
 }
 
 .contact {
@@ -118,7 +119,7 @@
 }
 
 .form-submit:hover {
-    box-shadow: 0 0 5px rgb(208, 137, 6), 0 0 10px rgb(208, 137, 6), 0 0 15px rgb(208, 137, 6), 0 0 20px rgb(208, 137, 6);
+    box-shadow: 0 0 5px rgb(208, 137, 6);
     letter-spacing: 0.25rem;
     color: white;
 }

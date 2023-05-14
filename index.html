@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <script src="assets/js/home-name.js" defer></script>
+    <script src="assets/js/switch.js" defer></script>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/section1.css">
@@ -24,6 +25,7 @@
     <link rel="stylesheet" href="assets/css/mediaq.css">
     <link rel="stylesheet" href="assets/css/extra.css">
     <link rel="stylesheet" href="assets/css/homepage.css">
+    <link rel="stylesheet" href="assets/css/switch.css">
     <title>My Portfolio</title>
 </head>
 
@@ -48,11 +50,27 @@
                         <a class="nav-link mx-2" href="#section-three">Works</a>
                         <a class="nav-link mx-2" href="#section-four">Contact</a>
                     </div>
+
+                    <div class="sound">
+                        <span class="sound-icon">
+                            <i class="fa fa-music"></i>
+                        </span>
+                        <label class="switch">
+                            <input type="checkbox" id="music-switch">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+
+                    <audio id="audio">
+                        <source src="assets/other/ambient.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+
                 </div>
             </div>
         </nav>
-        <a class="btn download-resume-sm d-sm-none" download onclick="return confirm('Download my resume?')" href="assets/other/resume.pdf"><i
-                class="fa fa-download"></i>&nbsp;&nbsp; my resume</a>
+        <a class="btn download-resume-sm d-sm-none" download onclick="return confirm('Download my resume?')"
+            href="assets/other/resume.pdf"><i class="fa fa-download"></i>&nbsp;&nbsp; my resume</a>
 
         <div class="container1">
             <div class="name-type">
@@ -358,7 +376,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
-        
+
 </body>
 
 </html>

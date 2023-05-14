@@ -49,10 +49,10 @@
 .space:hover img,
 .healthy:hover img,
 .fotomatic:hover img {
-    transform: scale(1.2);
+    transform: scale(1.15);
     opacity: 0.9;
     cursor: pointer;
-    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.46);
+    box-shadow: 0 0 1.5rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
 .project {

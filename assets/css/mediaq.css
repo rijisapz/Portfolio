@@ -60,5 +60,6 @@
         position: fixed;
         top: 4rem;
         right: 1.5rem;
+        z-index: 20;
     }
 }

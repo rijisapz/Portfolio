@@ -24,35 +24,69 @@
 
 /* start of styles for home page */
 
-.container1 {
-    height: 70vh;
-    align-items: center;
-}
-.box1 {
+.name-type {
+    font-size: 2.8rem;
     color: white;
-    font-size: 3rem;
+    display: inline-block;
+    position: relative;
+    top: 12rem;
+    left: 5rem;
+    width: 26rem;
 }
 
 .i-am {
-    font-size: 4.2rem;
+    font-size: 4.4rem;
+    box-shadow: 0 0 5px rgb(208, 137, 6), 0 0 10px rgb(208, 137, 6), 0 0 15px rgb(208, 137, 6), 0 0 20px rgb(208, 137, 6);
 }
 
 .webdev {
-    font-size: 2rem;
-    letter-spacing: 0.8rem;
+    color: rgb(142, 147, 146);
 }
 
-.box {
+.techs {
     position: relative;
 }
 
-.tree {
+.html-round {
     position: relative;
-    left: 16rem;
+    top: 5rem;
+    left: 27rem;
 }
 
+.css-round {
+    position: relative;
+    top: 14rem;
+    left: 24rem;
+}
 
+.js-round {
+    position: relative;
+    top: -10rem;
+    left: 8rem;
+}
 
+.bootstrap-round {
+    position: relative;
+    top: 16rem;
+    left: 24.5rem;
+}
 
+.react-round {
+    position: relative;
+    top: 15rem;
+    left: 25.5rem;
+}
+
+.sql-round {
+    position: relative;
+    top: 1rem;
+    left: 19rem;
+}
+
+.php-round {
+    position: relative;
+    top: 11rem;
+    left: 26rem;
+}
 
 

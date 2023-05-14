@@ -1,4 +1,5 @@
 .html-round {
+    box-shadow: 0 0 5px rgb(208, 137, 6), 0 0 10px rgb(208, 137, 6), 0 0 15px rgb(208, 137, 6), 0 0 20px rgb(208, 137, 6);
     transform: scale(1);
     transition: transform 0.5s;
     animation: pulsate 2.5s ease-out;
@@ -13,79 +14,79 @@
 
 .css-round {
     transform: scale(1);
-    transition: transform 1s;
+    transition: transform 1.3s;
     animation: pulsate 1.5s ease-out;
     animation-iteration-count: infinite;
 }
 
 @keyframes pulsate {
 0% { transform: scale(1); }
-50% { transform: scale(1.1); }
+50% { transform: scale(1.16); }
 100% { transform: scale(1); }
 }
 
 .bootstrap-round {
     transform: scale(1);
-    transition: transform 2.5s;
-    animation: pulsate 1.5s ease-out;
+    transition: transform 1.21s;
+    animation: pulsate 1.4s ease-out;
     animation-iteration-count: infinite;
 }
 
 @keyframes pulsate {
 0% { transform: scale(1); }
-50% { transform: scale(1.1); }
+50% { transform: scale(1.14); }
 100% { transform: scale(1); }
 }
 
 .react-round {
     transform: scale(1);
-    transition: transform 1.5s;
-    animation: pulsate 2s ease-out;
+    transition: transform 1.29s;
+    animation: pulsate 2.28s ease-out;
     animation-iteration-count: infinite;
 }
 
 @keyframes pulsate {
 0% { transform: scale(1); }
-50% { transform: scale(1.1); }
+50% { transform: scale(1.19); }
 100% { transform: scale(1); }
 }
 
 .php-round {
     transform: scale(1);
-    transition: transform 3s;
-    animation: pulsate 2s ease-out;
-    animation-iteration-count: infinite;
-}
-
-@keyframes pulsate {
-0% { transform: scale(1); }
-50% { transform: scale(1.1); }
-100% { transform: scale(1); }
-}
-
-.sql-round {
-    transform: scale(1);
-    transition: transform 2.8s;
-    animation: pulsate 2.6s ease-out;
-    animation-iteration-count: infinite;
-}
-
-@keyframes pulsate {
-0% { transform: scale(1); }
-50% { transform: scale(1.1); }
-100% { transform: scale(1); }
-}
-
-.js-round {
-    transform: scale(1);
-    transition: transform 3s;
-    animation: pulsate 2.95s ease-out;
+    transition: transform 2.87s;
+    animation: pulsate 2.65s ease-out;
     animation-iteration-count: infinite;
 }
 
 @keyframes pulsate {
 0% { transform: scale(1); }
 50% { transform: scale(1.15); }
+100% { transform: scale(1); }
+}
+
+.sql-round {
+    transform: scale(1);
+    transition: transform 2.8s;
+    animation: pulsate 2.40s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+0% { transform: scale(1); }
+50% { transform: scale(1.15); }
+100% { transform: scale(1); }
+}
+
+.js-round {
+    transform: scale(1);
+    transition: transform 2.90s;
+    animation: pulsate 2.35s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+0% { transform: scale(1); }
+50% { transform: scale(1.21); }
 100% { transform: scale(1); }
 }
 

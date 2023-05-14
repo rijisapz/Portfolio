@@ -22,7 +22,7 @@
     .download-resume-sm {
         transform: scale(0.8);
         position: fixed;
-        right: 0.5rem;;
+        right: 0.5rem;
         z-index: 10;
     }
     .my-projects,
@@ -30,6 +30,13 @@
     .cupertino,
     .techs {
         display: none;
+    }
+    .sound-sm {
+        transform: scale(0.8);
+        display: inline-block;
+        position: fixed;
+        top: 4rem;
+        right: 2rem;
     }
 }
 
@@ -48,4 +55,11 @@
     .webdev {
         transform: scale(0.9);
     }
+    .sound-sm {
+        transform: scale(0.8);
+        display: inline-block;
+        position: fixed;
+        top: 4rem;
+        right: 2rem;
+}
 }

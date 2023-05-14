@@ -35,7 +35,7 @@
     <section class="scroll s-one section1" id="section-one" data-section-name="s-one">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="me.html" target="_blank" title="visit my space&#128513;">
+                <a class="navbar-brand" href="me.html" title="visit my space&#128513;">
                     <img class="logo sm-logo" src="assets/img/RS.png" alt="logo" />
                 </a>
                 <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
@@ -69,6 +69,21 @@
                 </div>
             </div>
         </nav>
+
+        <div class="sound-sm d-sm-none">
+            <span class="sound-icon">
+                <i class="fa fa-music"></i>
+            </span>
+            <label class="switch">
+                <input type="checkbox" id="music-switch">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+        <audio id="audio">
+            <source src="assets/other/ambient.wav" type="audio/wav">
+            Your browser does not support the audio element.
+        </audio>
 
         <a class="btn download-resume-sm d-sm-none" download onclick="return confirm('Download my resume?')"
             href="assets/other/resume.pdf"><i class="fa fa-download"></i>&nbsp;&nbsp; my resume</a>
@@ -193,7 +208,7 @@
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                     <div class="tea-cozy">
-                        <a href="assets/other/Tea Cozy/index.html"><img class="project" src="assets/img/tea-cozy.jpg" />
+                        <a href="assets/other/Tea Cozy/index.html" target="_blank"><img class="project" src="assets/img/tea-cozy.jpg" />
                             <div class="middle"><span class="text">Tea Cozy</span>
                             </div>
                         </a>
@@ -202,7 +217,7 @@
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                     <div class="dasmotos">
-                        <a href="assets/other/Dasmotos/index.html"><img class="project" src="assets/img/dasmotos.jpg" />
+                        <a href="assets/other/Dasmotos/index.html" target="_blank"><img class="project" src="assets/img/dasmotos.jpg" />
                             <div class="middle"><span class="text">Dasmotos</span>
                             </div>
                         </a>
@@ -211,7 +226,7 @@
 
                 <div class="col-6 col-sm-6 col-md-4 col-lg-2">
                     <div class="excursion">
-                        <a href="assets/other/Excursion/index.html"><img class="project"
+                        <a href="assets/other/Excursion/index.html" target="_blank"><img class="project"
                                 src="assets/img/excursion.jpg" />
                             <div class="middle"><span class="text">Excursion Tours</span>
                             </div>

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  var text = "regie sapico.";
+  var text = "regiesapico.";
   var i = 0;
   function typeWriter() {
     if (i < text.length) {

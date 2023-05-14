@@ -39,10 +39,13 @@
         display: none;
     }
     .name-type {
-        transform: scale(0.8);
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    .i-am,
+    .webdev {
+        transform: scale(0.9);
     }
 }

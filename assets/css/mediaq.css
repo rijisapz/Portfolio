@@ -31,18 +31,12 @@
     .techs {
         display: none;
     }
-    .sound-sm {
-        transform: scale(0.8);
-        display: inline-block;
-        position: fixed;
-        top: 4rem;
-        right: 2rem;
-    }
 }
 
 @media screen and (max-width: 992px) {
     .cupertino,
-    .techs {
+    .techs,
+    .sound {
         display: none;
     }
     .name-type {
@@ -55,11 +49,4 @@
     .webdev {
         transform: scale(0.9);
     }
-    .sound-sm {
-        transform: scale(0.8);
-        display: inline-block;
-        position: fixed;
-        top: 4rem;
-        right: 2rem;
-}
 }

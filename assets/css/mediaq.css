@@ -31,6 +31,12 @@
     .techs {
         display: none;
     }
+    .sound-sm {
+        transform: scale(0.8);
+        position: fixed;
+        top: 4rem;
+        right: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -48,5 +54,11 @@
     .i-am,
     .webdev {
         transform: scale(0.9);
+    }
+    .sound-sm {
+        transform: scale(0.8);
+        position: fixed;
+        top: 4rem;
+        right: 1.5rem;
     }
 }

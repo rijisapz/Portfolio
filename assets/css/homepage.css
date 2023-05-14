@@ -1,0 +1,93 @@
+.html-round {
+    transform: scale(1);
+    transition: transform 0.5s;
+    animation: pulsate 2.5s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+0% { transform: scale(1); }
+50% { transform: scale(1.1); }
+100% { transform: scale(1); }
+}
+
+.css-round {
+    transform: scale(1);
+    transition: transform 1s;
+    animation: pulsate 1.5s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+0% { transform: scale(1); }
+50% { transform: scale(1.1); }
+100% { transform: scale(1); }
+}
+
+.bootstrap-round {
+    transform: scale(1);
+    transition: transform 2.5s;
+    animation: pulsate 1.5s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+0% { transform: scale(1); }
+50% { transform: scale(1.1); }
+100% { transform: scale(1); }
+}
+
+.react-round {
+    transform: scale(1);
+    transition: transform 1.5s;
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+0% { transform: scale(1); }
+50% { transform: scale(1.1); }
+100% { transform: scale(1); }
+}
+
+.php-round {
+    transform: scale(1);
+    transition: transform 3s;
+    animation: pulsate 2s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+0% { transform: scale(1); }
+50% { transform: scale(1.1); }
+100% { transform: scale(1); }
+}
+
+.sql-round {
+    transform: scale(1);
+    transition: transform 2.8s;
+    animation: pulsate 2.6s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+0% { transform: scale(1); }
+50% { transform: scale(1.1); }
+100% { transform: scale(1); }
+}
+
+.js-round {
+    transform: scale(1);
+    transition: transform 3s;
+    animation: pulsate 2.95s ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulsate {
+0% { transform: scale(1); }
+50% { transform: scale(1.1); }
+100% { transform: scale(1); }
+}
+
+
+

@@ -28,7 +28,8 @@
     .my-projects,
     .contact-me,
     .cupertino,
-    .techs {
+    .techs,
+    .poge {
         display: none;
     }
     .sound-sm {
@@ -42,7 +43,8 @@
 @media screen and (max-width: 992px) {
     .cupertino,
     .techs,
-    .sound {
+    .sound,
+    .poge {
         display: none;
     }
     .name-type {

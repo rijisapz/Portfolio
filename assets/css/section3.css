@@ -1,5 +1,6 @@
 .section3 {
-    background-image: url('/assets/img/back4.jpg');
+    /* background-image: url('/assets/img/back4.jpg'); */
+    background-image: url('../img/back4.jpg');
     background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;

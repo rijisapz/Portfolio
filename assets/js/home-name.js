@@ -5,7 +5,7 @@ $(document).ready(function() {
     if (i < text.length) {
       $('#me-name').append(text.charAt(i));
       i++;
-      setTimeout(typeWriter, 300); // Change the delay time here
+      setTimeout(typeWriter, 360); // Change the delay time here
     } else {
       i = 0; // Reset i to 0 to start the loop again
       $('#me-name').empty(); // Clear the text for the next loop

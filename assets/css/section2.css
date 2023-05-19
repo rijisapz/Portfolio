@@ -65,4 +65,9 @@
 .poge-ako {
     position: absolute;
     transform: rotateY(-180deg);
+    z-index: 5;
+}
+
+.educ, .certi, .exper {
+    background: rgba(0, 0, 0, 0.16);
 }

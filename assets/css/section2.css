@@ -10,7 +10,7 @@
     position: relative;
     top: 2%;
     opacity: 0.9;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.15rem;
 }
 
 .about-link {
@@ -33,18 +33,22 @@
     transition: all 0.5s ease;
 }
 
-.about p {
-    transition: all 0.7s ease;
+.about .educ,
+.about .certi,
+.about .exper {
+    transition: all 1s ease;
 }
 
-.about p:hover {
-    transform: scale(1.1);
-    color: white;
+.about .educ:hover,
+.about .certi:hover,
+.about .exper:hover {
+    transform: scale(1.04);
+    color: seashell;
 }
 
 .cupertino {
     position: relative;
-    top: 20rem;
+    top: 19.5rem;
     left: 58rem;
 }
 .google-map {
@@ -70,4 +74,8 @@
 
 .educ, .certi, .exper {
     background: rgba(0, 0, 0, 0.16);
+}
+
+.workk {
+    background:  rgb(209, 137, 6);
 }

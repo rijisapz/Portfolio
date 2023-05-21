@@ -29,7 +29,8 @@
     .contact-me,
     .cupertino,
     .techs,
-    .poge {
+    .poge,
+    .emel {
         display: none;
     }
     .sound-sm {
@@ -44,7 +45,8 @@
     .cupertino,
     .techs,
     .sound,
-    .poge {
+    .poge,
+    .emel {
         display: none;
     }
     .name-type {

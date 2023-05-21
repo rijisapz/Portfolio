@@ -105,7 +105,7 @@
 }
 
 .social-icons a:hover {
-    transform: scale(1.4);
+    transform: scale(1.1);
     transition: all 0.5s ease;
 }
 
@@ -148,9 +148,8 @@
 
 .contact-me:hover,
 .my-projects:hover {
-    color: white;
+    color: rgba(255, 255, 255, 0.7);
     letter-spacing: 0.35rem;
-    transform: scale(1.1);
 }
 
 .emel {
@@ -164,5 +163,5 @@
 }
 
 .emel:hover {
-    color:rgb(137, 9, 113)
+    color:rgba(255, 255, 255, 0.7)
 }

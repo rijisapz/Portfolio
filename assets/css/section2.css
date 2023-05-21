@@ -43,7 +43,7 @@
 .about .certi:hover,
 .about .exper:hover {
     transform: scale(1.04);
-    color: seashell;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .cupertino {

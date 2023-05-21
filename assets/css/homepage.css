@@ -1,4 +1,5 @@
 .html-round {
+    opacity: 0.8;
     transform: scale(1);
     transition: transform 0.5s;
     animation: pulsate 2.5s ease-out;
@@ -12,6 +13,7 @@
 }
 
 .css-round {
+    opacity: 0.8;
     transform: scale(1);
     transition: transform 1.3s;
     animation: pulsate 1.5s ease-out;
@@ -25,6 +27,7 @@
 }
 
 .bootstrap-round {
+    opacity: 0.8;
     transform: scale(1);
     transition: transform 1.21s;
     animation: pulsate 1.4s ease-out;
@@ -38,6 +41,7 @@
 }
 
 .react-round {
+    opacity: 0.8;
     transform: scale(1);
     transition: transform 1.29s;
     animation: pulsate 2.28s ease-out;
@@ -51,6 +55,7 @@
 }
 
 .php-round {
+    opacity: 0.8;
     transform: scale(1);
     transition: transform 2.87s;
     animation: pulsate 2.65s ease-out;
@@ -64,6 +69,7 @@
 }
 
 .sql-round {
+    opacity: 0.8;
     transform: scale(1);
     transition: transform 2.8s;
     animation: pulsate 2.40s ease-out;
@@ -77,6 +83,7 @@
 }
 
 .js-round {
+    opacity: 0.8;
     transform: scale(1);
     transition: transform 2.90s;
     animation: pulsate 2.35s ease-out;

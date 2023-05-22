@@ -30,7 +30,8 @@
     .cupertino,
     .techs,
     .poge,
-    .emel {
+    .emel,
+    .credit {
         display: none;
     }
     .sound-sm {
@@ -42,6 +43,9 @@
     .foot {
         transform: scale(0.8);
     }
+    a.footlink {
+        color: black;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -49,7 +53,8 @@
     .techs,
     .sound,
     .poge,
-    .emel {
+    .emel,
+    .credit {
         display: none;
     }
     .name-type {
@@ -71,5 +76,8 @@
     }
     .foot {
         transform: scale(0.8);
+    }
+    a.footlink{
+        color: black;
     }
 }

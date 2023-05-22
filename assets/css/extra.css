@@ -60,7 +60,9 @@
     position: relative;
     top: 10rem;
     font-size: 0.9rem;
-    color:rgba(255, 255, 255, 0.95)
+    color: rgba(255, 255, 255, 0.95);
+    font-family: monospace;
+
 }
 
 .credit-sm {
@@ -71,5 +73,6 @@
     position: relative;
     top: 10.5rem;
     font-size: 0.9rem;
-    color:rgba(255, 255, 255, 0.95)
+    color:rgba(255, 255, 255, 0.95);
+    font-family: monospace;
 }

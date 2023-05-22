@@ -306,7 +306,9 @@
                         <a class="nav-link mx-2 contact-link" href="#section-four">Contact</a>
                     </div>
                     <div>
-                        <a  class="emel" href="mailto:regiesapico1607@gmail.com"><i class="bi bi-envelope-fill"></i>&nbsp;<span class="emel-ad">regiesapico1607@gmail.com</span></a>
+                        <a class="emel" href="mailto:regiesapico1607@gmail.com"><i
+                                class="bi bi-envelope-fill"></i>&nbsp;<span
+                                class="emel-ad">regiesapico1607@gmail.com</span></a>
                     </div>
                 </div>
             </div>
@@ -324,15 +326,17 @@
                             my skills in HTML, CSS, JS, Bootstrap, React, PHP, and SQL.<br>
                             Please use the form if you have questions. Thank you.
                         </p><br>
-                        <form class="form-container">
+                        <form class="form-container" action="send_email.php" method="POST">
                             <div class="input-container">
-                                <input type="text" id="name" class="form-name" placeholder="Name" />
-                                <input type="email" id="email" class="form-email" placeholder="Email" /><br>
-                                <input type="email" id="email-subject" class="form-email-subject"
-                                    placeholder="Subject" /><br>
+                                <input type="text" id="name" name="name" class="form-name" placeholder="Name"
+                                    required />
+                                <input type="email" id="email" name="email" class="form-email" placeholder="Email"
+                                    required /><br>
+                                <input type="text" id="subject" name="subject" class="form-email-subject"
+                                    placeholder="Subject" required/><br>
                                 <textarea id="message" class="form-message" name="message" rows="6"
-                                    placeholder="Message"></textarea><br>
-                                <button type="button" id="submit" class="form-submit">
+                                    placeholder="Message" required></textarea><br>
+                                <button type="submit" id="submit" class="form-submit">
                                     <i class="bi bi-send"></i> Send
                                 </button>
                                 <br><br>

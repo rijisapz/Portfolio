@@ -20,3 +20,15 @@
     transform: scale(1.2);
     color: white;
 }
+
+.foot {
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    position: relative;
+    top: 9.5rem;
+    color: rgba(255, 255, 255, 0.95);
+    font-family: monospace;
+    font-size: 0.94rem;
+}
